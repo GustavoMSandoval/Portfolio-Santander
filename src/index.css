@@ -60,4 +60,42 @@ a {
     width: 0;
     background-color: var(--light);
     transition: width .5s;
+}
+
+.section-container {
+  margin: auto;
+  width: 45.5%;
+  padding: 6rem 0;
+}
+
+@media (max-width: 1400px) {
+  .section-container {
+    width: 90%;
   }
+}
+
+.btn-primary {
+  color: var(--light);
+  background-color: var(--primary);
+  padding: .5rem 2rem;
+  width: fit-content;
+  transition: ease-in-out .5s;
+
+  &:hover {
+    color: var(--primary);
+    background-color: var(--light);
+  }
+}
+
+#inicio {
+  height: 900px;
+  background-image: linear-gradient(
+    to right,
+    rgba(10, 10, 10, 0.85),
+    rgba(26, 26, 26, 0.78)
+  ),
+  url('/background/santander-bg-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
