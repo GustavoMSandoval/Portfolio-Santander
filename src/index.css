@@ -5,6 +5,10 @@
   --light: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text-primary {
   color: var(--primary);
 }
@@ -13,3 +17,27 @@
   color: var(--secondary);
 }
 
+.nav-link-list {
+  list-style: none;
+}
+
+.nav-link {
+  transition: ease-in-out .5s;
+  position: relative;
+
+  &:hover:after {
+    width: 100%;
+  }
+
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: var(--primary);
+    transition: width .5s;
+  }
