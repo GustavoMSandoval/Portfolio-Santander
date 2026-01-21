@@ -64,7 +64,7 @@ a {
 
 .section-container {
   margin: auto;
-  width: 45.5%;
+  width: 65.5%;
   padding: 6rem 0;
 }
 
@@ -73,6 +73,25 @@ a {
     width: 90%;
   }
 }
+
+.section-title {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: linear-gradient(var(--primary, var(--primary))) bottom center no-repeat;
+  background-size: 70% 3px;
+}
+
+.section-subtitle {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--primary);
+  width: fit-content;
+}
+
 
 .btn-primary {
   color: var(--light);
@@ -98,4 +117,22 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.about-list {
+  list-style: disc;
+}
+
+.technology-list-item {
+  color: var(--light);
+  background-color: var(--primary);
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--primary);
+  transition: ease-in-out .5s;
+
+  &:hover {
+    color: var(--primary);
+    background-color: var(--light);
+  }
 }
