@@ -91,6 +91,7 @@ a {
   text-transform: uppercase;
   background: linear-gradient(var(--primary, var(--primary))) bottom center no-repeat;
   background-size: 70% 3px;
+  width: fit-content;
 }
 
 .section-subtitle {
@@ -131,6 +132,10 @@ a {
 
 .about-list {
   list-style: disc;
+}
+
+.about-text {
+  font-size: clamp(.2rem, 1vw, 1rem)
 }
 
 .technology-list-item {
