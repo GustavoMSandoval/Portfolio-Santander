@@ -134,10 +134,6 @@ a {
   list-style: disc;
 }
 
-.about-text {
-  font-size: clamp(.2rem, 1vw, 1rem)
-}
-
 .technology-list-item {
   color: var(--light);
   background-color: var(--primary);

@@ -5,7 +5,7 @@ export default function AboutSection() {
             <h2 className="section-title">
                 sobre mim
             </h2>
-            <div className="flex flex-wrap flex-col gap-5 w-2xl  md:w-full about-text">
+            <div className="flex flex-wrap flex-col gap-5 w-full about-text">
                   <p className="lg:text-center font-bold">
                     Olá! Me chamo Gustavo, e sou um desenvolvedor movido pelo desafio de transformar linhas de código em soluções de alto impacto.
                   </p>
@@ -13,7 +13,7 @@ export default function AboutSection() {
                     <p className="lg:text-center">
                         Acredito que a tecnologia só cumpre seu papel quando gera valor real. Por isso, minha atuação é guiada por três pilares fundamentais <br className="hidden lg:block"/> que venho aplicando em meus projetos recentes:
                     </p>
-                      <div className="flex flex-col lg:items-center lg:w-3xl lg:mx-auto  md:my-6">
+                      <div className="flex flex-col lg:items-center lg:max-w-3xl lg:mx-auto  md:my-6">
                         <ul className="about-list ">
                                 <li>
                                     <p><span className="font-bold">Foco em Resultados:</span> Entrega de soluções que impactam diretamente o bottom line, resultando em redução de custos operacionais e otimização de recursos.</p>
@@ -27,10 +27,10 @@ export default function AboutSection() {
                         </ul>
                     </div>
                 </div>
-                <div className="flex flex-col flex-wrap gap-4 mx-auto w-4xl">
+                <div className="flex flex-col flex-wrap gap-4 mx-auto max-w-4xl">
                     <h3 className="section-subtitle">Por que o Santander?</h3>
                     <div className="lg:text-center flex flex-wrap flex-col gap-4">
-                        <p>Minha sede de conhecimento e minha atenção rigorosa aos detalhes encontram eco na cultura de excelência do Santander. Vejo no banco o ambiente ideal para quem deseja inovar com responsabilidade, buscando sempre a melhoria contínua.</p>
+                        <p>Minha sede de conhecimento e minha atenção rigorosa aos detalhes encontram eco na cultura de excelência do Santander. <br className="lg:hidden"/> Vejo no banco o ambiente ideal para quem deseja inovar com responsabilidade, buscando sempre a melhoria contínua.</p>
                         <p>Meu objetivo é alinhar minha dedicação técnica aos objetivos estratégicos da instituição, ajudando a construir o futuro dos serviços financeiros.</p>
                     </div>
                 </div>
