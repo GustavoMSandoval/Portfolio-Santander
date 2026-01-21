@@ -23,6 +23,21 @@ a {
   background-color: var(--primary);
 }
 
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: reveal linear forwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
 .navbar {
   padding: .5rem 1.5rem;
   background-color: var(--primary);
@@ -65,7 +80,7 @@ a {
 .section-container {
   margin: auto;
   width: 65.5%;
-  padding: 6rem 0;
+  padding: 6rem 0.5rem;
 }
 
 .section-container-start {
@@ -92,6 +107,7 @@ a {
   background: linear-gradient(var(--primary, var(--primary))) bottom center no-repeat;
   background-size: 70% 3px;
   width: fit-content;
+  margin-inline: auto;
 }
 
 .section-subtitle {
@@ -146,4 +162,12 @@ a {
     color: var(--primary);
     background-color: var(--light);
   }
+}
+
+.experience-list {
+  list-style-type: disc;
+}
+
+.experience-list-item::marker {
+  color: var(--primary);
 }
