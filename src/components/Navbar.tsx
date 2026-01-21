@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="fixed w-full top-1 z-50">
+    <header className="fixed w-full top-5 z-50">
       <nav className="navbar md:hidden">
         <div className="flex items-center gap-30 sm:gap-64">
           <a href="#">
