@@ -3,7 +3,7 @@
 :root {
   --primary: #cc0000;
   --secondary: #767676;
-  --dark: #000000;
+  --dark: #222222;
   --light: #ffffff;
 }
 
@@ -21,6 +21,10 @@ a {
 
 .bg-primary {
   background-color: var(--primary);
+}
+
+.bg-dark {
+  background-color: var(--dark);
 }
 
 @keyframes reveal {

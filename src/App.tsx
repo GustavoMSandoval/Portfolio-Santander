@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/sections/About";
 import ExperienceSection from "./components/sections/Experience";
@@ -11,6 +12,7 @@ function App() {
     <StartSection/>
     <AboutSection/>
     <ExperienceSection/>
+    <Footer/>
     </>
   )
 }
