@@ -68,8 +68,18 @@ a {
   padding: 6rem 0;
 }
 
+.section-container-start {
+  margin: auto;
+  width: 45.5%;
+  padding: 6rem 0;
+}
+
 @media (max-width: 1400px) {
   .section-container {
+    width: 90%;
+  }
+
+  .section-container-start {
     width: 90%;
   }
 }

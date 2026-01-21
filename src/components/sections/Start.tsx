@@ -1,7 +1,7 @@
 export default function StartSection() {
   return (
     <section id="inicio">
-        <div className="section-container flex justify-start items-center h-full">
+        <div className="section-container-start flex justify-start items-center h-full">
             <div className="flex flex-col">
                 <h2 className="uppercase text-5xl text-white font-bold">
                     Gustavo <br/>
