@@ -40,7 +40,7 @@ export default function Navbar() {
                 <li className="nav-link-item"><a href="#contato" className="nav-link">Contato</a></li>
             </ul>
             <div>
-              <img className="rounded-full w-12" src="/foto_bonita.jpg" alt=""/>
+              <img className="rounded-full w-12 border border-white" src="/foto_bonita.jpg" alt=""/>
             </div>
         </nav>
     </header>
