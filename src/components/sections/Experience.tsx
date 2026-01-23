@@ -49,6 +49,33 @@ export default function ExperienceSection() {
             </ul>
           </div>
         </div>
+        <div className="lg:grid lg:grid-cols-3 justify-items-center items-center my-5 reveal">
+          <span className="text-secondary col-start-3 lg:hidden">02/2024 - 05/2024</span>
+          <div>
+            <h3 className="text-3xl font-bold">Desenvolvimento de Software (3ºsemestre)</h3>
+            <span className="text-primary font-bold">UNIP</span>
+            <ul className="experience-list">
+              <li className="experience-list-item">Java (NetBeans), MySQL via JDBC, Apache POI (Integração Excel).</li>
+              <li className="experience-list-item">Implementação de motor de leitura e processamento de dados vindos de arquivos Excel para carga no banco de dados.</li>
+              <li className="experience-list-item">Criação de dashboards de consumo e gastos para suporte à tomada de decisão.</li>
+              <li className="experience-list-item">Interface intuitiva desenvolvida em Java, com módulos completos de Login e Cadastro para segurança das informações.</li>
+            </ul>
+          </div>
+          <span className="text-secondary col-start-3 hidden lg:block">07/2024 - 10/2024</span>
+        </div>
+        <div className="lg:grid lg:grid-cols-3 justify-items-center items-center my-5 reveal">
+          <span className="text-secondary">07/2025 - 10/2025</span>
+          <div className="col-start-3">
+            <h3 className="text-3xl font-bold">Desenvolvimento de Software (6ºsemestre)</h3>
+            <span className="text-primary font-bold">UNIP</span>
+            <ul className="experience-list">
+              <li className="experience-list-item">Python (Django), SQLite, DeepFace (Computer Vision).</li>
+              <li className="experience-list-item">Integração de modelos de Deep Learning para autenticação biométrica em tempo real.</li>
+              <li className="experience-list-item">Sistema de níveis de acesso (Usuário, Diretor e Ministro), simulando fluxos de governança de alta segurança.</li>
+              <li className="experience-list-item">Desenvolvimento em Django para gerenciamento robusto de sessões e integridade dos dados.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   )
