@@ -16,7 +16,7 @@ export default function AboutSection() {
                       <div className="flex flex-col lg:items-center lg:max-w-3xl lg:mx-auto  md:my-6">
                         <ul className="about-list ">
                                 <li>
-                                    <p><span className="font-bold">Foco em Resultados:</span> Entrega de soluções que impactam diretamente o bottom line, resultando em redução de custos operacionais e otimização de recursos.</p>
+                                    <p><span className="font-bold">Foco em Resultados:</span> Entrega de soluções que impactam diretamente a carteira do cliente, resultando em redução de custos operacionais e otimização de recursos.</p>
                                 </li>
                                 <li>
                                     <p><span className="font-bold">Performance e Escalabilidade:</span> Desenvolvimento de sistemas resilientes, garantindo que a tecnologia acompanhe o crescimento do negócio sem perder eficiência.</p>
@@ -30,7 +30,7 @@ export default function AboutSection() {
                 <div className="flex flex-col flex-wrap gap-4 mx-auto max-w-4xl">
                     <h3 className="section-subtitle">Por que o Santander?</h3>
                     <div className="lg:text-center flex flex-wrap flex-col gap-4">
-                        <p>Minha sede de conhecimento e minha atenção rigorosa aos detalhes encontram eco na cultura de excelência do Santander. <br className="lg:hidden"/> Vejo no banco o ambiente ideal para quem deseja inovar com responsabilidade, buscando sempre a melhoria contínua.</p>
+                        <p>Minha sede de conhecimento e minha atenção aos detalhes encontram uma base sólida na cultura de excelência do Santander. <br className="lg:hidden"/> Vejo no banco o ambiente ideal para quem deseja inovar com responsabilidade, buscando sempre a melhoria contínua.</p>
                         <p>Meu objetivo é alinhar minha dedicação técnica aos objetivos estratégicos da instituição, ajudando a construir o futuro dos serviços financeiros.</p>
                     </div>
                 </div>
