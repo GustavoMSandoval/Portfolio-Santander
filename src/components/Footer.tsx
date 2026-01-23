@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-dark">
-        <div className="section-container flex flex-col items-center gap-12">
-            <h2 className="section-title text-white">Contato</h2>
-            <div className="flex flex-col items-start gap-12 lg:grid lg:grid-cols-3 justify-items-center lg:items-center">
-                <span className="text-secondary">
+        <div className="flex flex-col items-center gap-12">
+            <h2 className="section-title text-white py-4">Contato</h2>
+            <div className="flex flex-col items-center gap-12 lg:grid lg:grid-cols-3 justify-items-center lg:items-center py-3 px-2">
+                <span className="text-secondary hidden lg:block">
                     Copyright © 2025 Gustavo M Sandoval | All Rights Reserved
                 </span>
                 <ul className="flex ">
@@ -20,6 +20,9 @@ export default function Footer() {
                     <li><a href="https://www.linkedin.com/in/gustavomsandoval/" target="_blank"><FaLinkedin color="white" size={24} /></a></li>
                     <li><a href="https://www.youtube.com/@GustavoMSandoval" target="_blank"><FaYoutube color="white" size={24} /></a></li>
                 </ul>
+                <span className="text-secondary lg:hidden">
+                    Copyright © 2025 Gustavo M Sandoval | All Rights Reserved
+                </span>
             </div>
         </div>
     </footer>
