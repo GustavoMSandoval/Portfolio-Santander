@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark">
+    <footer id="contato" className="bg-dark">
         <div className="flex flex-col items-center gap-12">
             <h2 className="section-title text-white py-4">Contato</h2>
             <div className="flex flex-col items-center gap-12 lg:grid lg:grid-cols-3 justify-items-center lg:items-center py-3 px-2">
